@@ -364,7 +364,7 @@ Copyright 2007 Kurt Bonnet
       <MonetaryValue>#xmlFormat(arguments.packageValue)#</MonetaryValue>
    </InvoiceLineTotal>
    </cfif>
-   <PickupDate>#dateFormat(arguments.pickupday, "YYYYMMDD")#</PickupDate>
+   <PickupDate>#dateFormat(arguments.pickupday, "yyyymmdd")#</PickupDate>
    <cfif arguments.packageDocumentsOnly ><DocumentsOnlyIndicator/></cfif>
 </TimeInTransitRequest>
 	</cfoutput>
